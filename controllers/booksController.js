@@ -2,7 +2,7 @@ const books=require("../data/books")
 
 //get all books
 const getBooks=(req,res)=>{
-    res.status(200).res.json({success:true,data:books})
+    res.status(200).json({success:true,data:books})
 }
 //post a book
 const createBook=(req,res)=>{
